@@ -7,3 +7,7 @@
 - Temel HTML etiketleri
 - İlk HTML sayfası
 - Yüzüklerin Efendisi temel HTML sayfası
+
+# 2. Gün
+- Başlık etiketleri
+- Paragraf etiketleri
