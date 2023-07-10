@@ -11,3 +11,9 @@
 # 2. Gün
 - Başlık etiketleri
 - Paragraf etiketleri
+
+# 3. Gün
+- Biçimlendirme etiketleri
+- Movie Ranking uygulaması
+- En iyi filmler uygulaması
+- Resim etiketleri
