@@ -17,3 +17,9 @@
 - Movie Ranking uygulaması
 - En iyi filmler uygulaması
 - Resim etiketleri
+
+
+# 4. Gün
+- Link etiketleri
+- Filmler 3 uygulaması
+- Listeler
