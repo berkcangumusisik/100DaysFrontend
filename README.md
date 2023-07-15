@@ -23,3 +23,10 @@
 - Link etiketleri
 - Filmler 3 uygulaması
 - Listeler
+
+# 5. Gün
+- Div
+- Span
+- Semantik Elementler
+- Movie App Uygulamasında Geliştirmeler
+- Tablolar
