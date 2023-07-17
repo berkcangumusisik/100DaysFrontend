@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Ürün ID</th>
+            <th>Ürün Adı</th>
+            <th>Ürün Fiyatı</th>
+            <th>Ürün Resmi</th>
+            
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>iPhone 11</td>
+            <td>10000</td>
+            <td>1.jpg</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td rowspan="2">iPhone 11 Pro</td>
+            <td>15000</td>
+            <td>2.jpg</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>iPhone 11 Pro Max</td>
+            <td colspan="2">20000 - 3.jpg</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!--
+    <table>...</table> : Tablo oluşturmak için kullanılır. border="1" ile tablonun kenarlarını çizgili hale getiririz.
+    <tr>...</tr> : Tablo satırı oluşturmak için kullanılır.
+    <td>...</td> : Tablo hücresi oluşturmak için kullanılır.
+    <th>...</th> : Tablo başlığı oluşturmak için kullanılır.
+    <thead>...</thead> : Tablo başlıklarını gruplamak için kullanılır.
+    <tbody>...</tbody> : Tablo içeriğini gruplamak için kullanılır.
+    rowspan= Bir hücreyi birden fazla satıra genişletmek için kullanılır.
+    colspan= Bir hücreyi birden fazla sütuna genişletmek için kullanılır.
+-->

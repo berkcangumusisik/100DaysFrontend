@@ -29,4 +29,10 @@
 - Span
 - Semantik Elementler
 - Movie App Uygulamasında Geliştirmeler
+
+
+# 6. Gün
 - Tablolar
+- Tablo Uygulaması
+- Formlar
+- Form Uygulaması
