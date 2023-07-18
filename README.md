@@ -36,3 +36,13 @@
 - Tablo Uygulaması
 - Formlar
 - Form Uygulaması
+
+
+# 7. Gün
+- CSS Nedir?
+- CSS Söz Dizimi
+- CSS Çeşitleri
+    * Inline CSS
+    * Internal CSS
+    * External CSS
+- CSS Çeşitleri Uygulama
