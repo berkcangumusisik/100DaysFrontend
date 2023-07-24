@@ -46,3 +46,13 @@
     * Internal CSS
     * External CSS
 - CSS Çeşitleri Uygulama
+
+# 8. Gün
+- ID ve Class Kullanımı
+
+# 9. Gün
+- Box Model
+- Padding
+- Margin
+- Border
+- Width ve Height
