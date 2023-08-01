@@ -56,3 +56,11 @@
 - Margin
 - Border
 - Width ve Height
+
+# 10. Gün
+- Box Sizing
+- Visibility
+- Display
+- Navbar Uygulaması
+- Listelerde Stil Uygulaması
+- Linklerde Stil Uygulaması
