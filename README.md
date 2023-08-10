@@ -64,3 +64,11 @@
 - Navbar Uygulaması
 - Listelerde Stil Uygulaması
 - Linklerde Stil Uygulaması
+
+
+# 11.Gün
+- Combinators
+- Pseudo Classes
+- Pseudo Elements
+- Button Stil Uygulaması
+- Background Image

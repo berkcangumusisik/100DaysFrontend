@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            background-color: red;
+        }
+
+        div > p{
+            background-color: yellow;
+        }
+
+        div + p{
+            background-color: green;
+        }
+
+        div ~ p{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--1. Descendant Selector {}-->
+    <p>1. paragraf</p>
+    <div>
+        <p>2. paragraf</p>
+        <p>3. paragraf</p>
+        <section>
+            <p>4.paragraf</p>
+        </section>
+    </div>
+    <p>5.paragraf</p>
+    <p>6.paragraf</p>
+
+</body>
+</html>
+
+<!-- 
+    Combinators
+    1. Descendant Selector 
+    - Bir elementin içindeki diğer elementleri seçmek için kullanılır.
+
+    2. Child Selector (>)
+    - Descendant Selector'dan farkı, sadece birinci seviyedeki elementleri seçer.
+
+    3. Adjacent Sibling Selector (+)
+    - Bir elementin hemen sonraki kardeşini seçer.
+
+    4. General Sibling Selector (~)
+    - Bir elementin sonraki tüm kardeşlerini seçer.
+-->

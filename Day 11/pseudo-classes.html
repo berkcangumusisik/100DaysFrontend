@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Classes</title>
+    <style>
+        a {
+            border: 1px solid rgb(102, 96, 96);
+            padding: 5px 8px;
+            display: inline-block;
+            text-decoration: none;
+            width: 60px;
+            text-align: center;
+        }
+
+        a {
+            border: 1px solid gray;
+            padding: 5px 8px;
+            display: inline-block;
+            text-decoration: none;
+            width: 60px;
+            text-align: center;
+        }
+
+        a:link {
+            color: red;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: #fff;
+            background-color: yellow;
+        }
+
+        a:active {
+            color: #fff;
+            background-color: violet;
+        }
+
+        div:hover p {
+            display: block;
+        }
+
+        p {
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <a href="">Home</a>
+    <a href="">Products</a>
+    <a href="">About</a>
+    <div>
+        Click here!
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam saepe quis similique aut porro officiis ad. Et tempora laboriosam a perspiciatis debitis vero ipsam delectus, voluptates harum nulla officia?</p>
+    </div>
+  </body>
+</html>
+<!-- 
+    : link -> ziyaret edilmemiş linkler
+    : visited -> ziyaret edilmiş linkler
+    : hover -> üzerine gelindiğinde
+    : active -> tıklanıldığında
+    : focus -> odaklanıldığında
+
+-->

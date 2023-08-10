@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            font-weight: bold;
+            color: brown;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+        }
+
+        p.about::first-line{
+            color:green;
+        }
+
+        p::first-letter{
+            font-size: 48px;
+        }
+
+        ::selection{
+            background-color: hotpink;
+        }
+
+        p::after{
+            content: '\261D';
+            font-size: 35px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda in nihil animi, voluptate possimus amet nostrum similique! Itaque, ipsa. Dicta hic quasi inventore distinctio odio rem nihil atque impedit tenetur.
+    </p>
+
+    <p class="about">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, pariatur asperiores sunt odit error reiciendis corrupti deserunt explicabo exercitationem consectetur. Deserunt quasi harum magnam nihil consectetur dignissimos tempora sapiente maiores!
+    </p>
+</body>
+</html>
+
+<!-- 
+    Pseudo-Elementler
+    - ::first-line : İlk satırı seçer
+    - ::first-letter : İlk harfi seçer
+    - ::before : Seçilen elementin içerisine bir şeyler eklemek için kullanılır
+    - ::after : Seçilen elementin sonuna bir şeyler eklemek için kullanılır
+-->
