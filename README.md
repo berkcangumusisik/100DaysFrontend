@@ -72,3 +72,14 @@
 - Pseudo Elements
 - Button Stil Uygulaması
 - Background Image
+
+# 12. Gün 
+- How it works?
+- Font Awesome
+- Font
+
+
+# 13.Gün
+- Floating
+- Floating Images
+- Floating Uygulaması

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating</title>
+    <style>
+        #container{
+            background-color: chocolate;
+        }
+        #box1{
+            float: left;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            float: right;
+        }
+
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        img{
+            width: 300px;
+            float: left;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" class="clearfix">
+        <div class="box" id="box1">Kutu 1</div>
+        <div class="box">Kutu 2 </div>
+        <div class="box">Kutu 3</div>
+        <!--<div style="clear: both;"></div>-->
+    </div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, et. Ut quidem iusto nemo, distinctio aperiam omnis reprehenderit nulla cum, doloribus, temporibus saepe? Quasi magni placeat qui ab, id vero?</p>
+
+    <p class="clearfix">
+        <img src="rowing.jpeg" alt="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro ullam unde minus qui suscipit fugit omnis architecto, necessitatibus facilis obcaecati accusamus dolor possimus. Corporis nostrum repellat officia tempora soluta aspernatur, explicabo libero nam voluptas vitae labore dolor ducimus obcaecati quidem doloribus minima dolore fugiat veritatis voluptatem? Quis, distinctio tempore.
+    </p>
+</body>
+</html>
+
+<!-- 
+    float bir elementi sağa veya sola doğru kaydırır.
+    float: left;  elementi sola doğru kaydırır.
+    float: right;  elementi sağa doğru kaydırır.
+    float: none;  elementi kaydırmaz.
+    clear ise float özelliğini temizler. 
+-->
