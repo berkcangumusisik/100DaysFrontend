@@ -194,6 +194,12 @@
             background: #edf5f7;
             padding: 25px 10px;
             border-radius: 5px;
+            box-shadow: 0px 7px 29px 0px rgba(100,100,111,0.2);
+            transition: box-shadow .6s;
+        }
+
+        .inner-plan:hover {
+            box-shadow: 0px 7px 29px 0px rgba(100,100,111,0.5);
         }
 
         .plan__features {
@@ -339,3 +345,13 @@
 
 </body>
 </html>
+
+<!--
+    Box Shadow
+    - Bir kutuya gölge eklemek için kullanılır.
+    - v-offset: yatayda gölgenin konumunu belirler.
+    - h-offset: dikeyde gölgenin konumunu belirler.
+    - blur: gölgenin bulanıklaşma miktarını belirler.
+    - spread: gölgenin yayılma miktarını belirler.
+    - color: gölgenin rengini belirler.
+-->

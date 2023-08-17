@@ -83,3 +83,9 @@
 - Floating
 - Floating Images
 - Floating Uygulaması
+
+
+# 14. Gün
+- Box Shadow
+- Helper Class
+- Position

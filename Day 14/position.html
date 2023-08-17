@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -10,16 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="buttons.css">
     <style>
       
         * {
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             margin: 0;
             font-family: 'Lato', sans-serif;
+        }
+
+        main {
+            margin-top: 50px;
         }
 
         #showcase { 
@@ -28,6 +35,17 @@
             height: 500px;
             width: 100%;
             padding: 10px;
+            position: relative;
+        }
+
+        #showcase h1 {
+            position: absolute;
+            top: 50%;
+            margin: 0;
+            color: #fff;
+            font-size: 45px;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
        
         .main-header {
@@ -50,6 +68,13 @@
         .main-nav__item {
             display: inline-block;
             margin: 0 10px;
+        }
+
+        .main-header {
+            position: fixed;
+            z-index: 1;
+            width: 100%;
+            top: 0;
         }
 
         .main-header__logo {
@@ -77,20 +102,6 @@
             color: #fff;
         }
 
-        .main-nav__item--login a {
-            color: #fff;
-            background-color: #2E4C6D;
-            padding: 4px 16px;
-            border-radius: 8px;
-            border: 2px solid #fff;
-        }
-
-        .main-nav__item--login a:hover {
-            color: #2E4C6D;
-            border: 2px solid #2E4C6D;
-            background-color: #fff;
-        }
-
         .main-nav__item--login::before {
             content:none;
         }
@@ -98,11 +109,6 @@
         #how-it-works { 
             padding: 10px;
             text-align: center;
-        }
-
-        #how-it-works h2 {
-            color: #3e4555;
-            font-size: 30px;
         }
 
         .row {
@@ -148,27 +154,11 @@
             font-size: 30px;
         }
 
-        #features a {
-            background-color: #FC997C;
-            color: #fff;
-            padding: 7px 15px;
-            text-decoration: none;
-            font-size: 14px;
-            text-align: center;
-            border: 1px solid #FC997C;
-            border-radius: 3px;
-            display: inline-block;
-            margin-top: 15px;
-        }
-
-        #features a:hover {
-            border: 1px solid #FC997C;
-            color: #FC997C;
-            background-color: #fff;
-        }
-
         .section-title {
             text-align: center;
+            margin-bottom: 40px;
+            color: #3e4555;
+            font-size: 30px;
         }
 
         .plan {           
@@ -194,12 +184,23 @@
             background: #edf5f7;
             padding: 25px 10px;
             border-radius: 5px;
+            box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+            transition: box-shadow .6s;
+        }
+
+        .inner-plan:hover {
+            box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.5);
         }
 
         .plan__features {
             list-style: none;
             margin: 0;
             padding: 0;
+        }
+
+        .plan--featured {
+            position: relative;
+            top: -20px;
         }
 
         .plan__features li {
@@ -216,10 +217,26 @@
             margin: 0 auto;
             width: 1000px;
         }
+
+        #backtotop {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        #backtotop i {
+            color: #FC997C;
+            font-size: 45px;
+            transition: color .6s;
+        }
+
+        #backtotop i:hover {
+            color:#fb6537;
+        }
         
     </style>
 </head>
-<body> 
+<body id="body"> 
 
     <header class="main-header">
         <a href="#" class="main-header__logo">MovieApp</a>
@@ -232,7 +249,7 @@
                     <a href="#">Diziler</a>
                 </li>
                 <li class="main-nav__item main-nav__item--login">
-                    <a href="#">Login</a>
+                    <a class="btn btn-secondary" href="#">Login</a>
                 </li>
             </ul>
         </nav>
@@ -244,7 +261,7 @@
         </section>
         <section id="how-it-works">
             <div class="row">
-                <h2>How it works?</h2>
+                <h2 class="section-title">How it works?</h2>
                 <p>We will show you step by step how to start watching your favorite movies & tv shows starting now!</p>
             </div>
 
@@ -272,7 +289,7 @@
                 <div class="col-2 features__left"></div><div class="col-2 features__right">
                     <h3>Watch all Movies & TV Shows once they get released!</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aperiam deserunt quaerat? Doloremque expedita repellendus adipisci eligendi nobis illum! Perferendis ab blanditiis eius iste incidunt esse numquam asperiores hic suscipit.</p>
-                    <a href="#">View Features</a>
+                    <a class="btn btn-secondary" href="#">View Features</a>
                 </div>
             </div>
         </section>
@@ -293,11 +310,11 @@
                                 <li>First Month Free</li>
                             </ul>
                             <div>
-                                <button>Choose Plan</button>
+                                <button class="btn btn-primary">Choose Plan</button>
                             </div>
                         </div>
                     </div>
-                    <div class="plan">
+                    <div class="plan plan--featured">
                         <div class="inner-plan recommended_plan">
                             <h2 class="plan__badge">Recommended</h2>
                             <h2>Basic</h2>
@@ -311,7 +328,7 @@
                                 <li>First Month Free</li>
                             </ul>
                             <div>
-                                <button>Choose Plan</button>
+                                <button class="btn btn-primary">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -328,7 +345,7 @@
                                 <li>First Month Free</li>
                             </ul>
                             <div>
-                                <button>Choose Plan</button>
+                                <button class="btn btn-primary">Choose Plan</button>
                             </div>
                         </div>
                     </div>
@@ -337,5 +354,19 @@
         </section>
     </main>
 
+    <a href="#body" id="backtotop">
+        <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
 </body>
 </html>
+<!-- 
+    Position 
+    - Bir elementin sayfa içerisindeki konumunu belirlemek için kullanılır.
+    - Bir elementin position değeri static ise, elementin konumu normal akışa göre belirlenir.
+    - Bir elementin position değeri relative ise, elementin konumu normal akışa göre belirlenir. Ancak, relative olarak belirlenen elementin top, bottom, left, right özellikleri ile konumu değiştirilebilir.
+    - position : absolute; ile bir elementin konumu normal akıştan çıkar ve sayfa içerisindeki diğer elementlerin konumu üzerinde etkili olur. 
+    - position : fixed; ile bir elementin konumu normal akıştan çıkar ve sayfa içerisindeki diğer elementlerin konumu üzerinde etkili olur. Ancak, bu elementin konumu scroll edilse bile değişmez.
+    
+
+-->
