@@ -89,3 +89,10 @@
 - Box Shadow
 - Helper Class
 - Position
+
+# 15. Gün
+- Background
+- Background Image
+- Background Size
+- Background Position
+- Background Attachment
