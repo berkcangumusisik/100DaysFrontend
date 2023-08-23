@@ -96,3 +96,9 @@
 - Background Size
 - Background Position
 - Background Attachment
+
+# 16. Gün
+- Movie App Uygulaması Background
+- Movie App Uygulaması Footer
+- Movie App Moviea Cards
+- Movie App Kayıt Formu
