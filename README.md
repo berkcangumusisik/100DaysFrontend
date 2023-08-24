@@ -102,3 +102,6 @@
 - Movie App Uygulaması Footer
 - Movie App Moviea Cards
 - Movie App Kayıt Formu
+
+# 17.Gün
+- Movie App Projesi Tamamlandı
