@@ -105,3 +105,10 @@
 
 # 17.Gün
 - Movie App Projesi Tamamlandı
+
+# 18.Gün
+- Bootstrap Nedir?
+- Bootstrap Kurulumu
+- Bootstrap Başlık Etiketleri
+- Bootstrap Paragraf Etiketleri
+- Bootstrap Renkler
