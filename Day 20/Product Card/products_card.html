@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* product cards */
+  
+  @media(max-width: 768px) {
+      .product-card .img-wrap {
+          border-bottom: 1px solid #dee2e6;
+      }
+  }
+  
+  .product-card .img-wrap {
+      height: 250px;
+      padding: .5rem;
+      display: block;
+      text-align: center;
+  }
+  
+  .product-card img {
+      height: 100%;
+      width: auto;
+      max-width: 100%;
+      object-fit: cover;
+  }
+  
+  .product-card .checked {
+      color: orange;
+  }
+  
+  .product-card .title {
+      text-decoration: none;
+      color: #212529;
+  }
+  
+  .product-card .price {
+      color: orange;
+      font-size: 22px;
+  }
+  
+  .product-card .rating {
+      font-size: 13px;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card product-card mb-3 shadow">
+                <div class="row g-0">
+                    <div class="col-xl-3 col-md-4">
+                        <a href="#" class="img-wrap">
+                            <img src="1.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xl-9 col-md-8 border-start">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-outline-primary btn-icon float-end">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="#" class="h6 mb-3 title">
+                                Apple iPhone 11 64GB Sarı Cep Telefonu
+                            </a>
+                            <div class="mb-2">
+                                <div class="rating mb-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="text-warning ms-1">5.0</span>
+                                </div>
+
+                                <span class="text-muted">Stokta</span>
+                                <span class="text-success">Ücretsiz Kargo</span>
+                            </div>
+
+                            <div class="price-wrap mb-4">
+                                <strong class="price">12.500 TL</strong>
+                                <del class="price-old">13.000 TL</del>
+                            </div>
+
+                            <div class="d-grid ga-2 d-md-block">
+                                <a href="" class="btn btn-primary">
+                                    <i class="fa fa-shopping-cart me-1"></i> Sepete Ekle
+                                </a>
+                                <a href="" class="btn btn-outline-primary">
+                                    <i class="fa fa-heart me-1"></i> Listeye Ekle
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card product-card mb-3 shadow">
+                <div class="row g-0">
+                    <div class="col-xl-3 col-md-4">
+                        <a href="#" class="img-wrap">
+                            <img src="2.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xl-9 col-md-8 border-start">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-outline-primary btn-icon float-end">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="#" class="h6 mb-3 title">
+                                Apple iPhone 11 64GB Sarı Cep Telefonu
+                            </a>
+                            <div class="mb-2">
+                                <div class="rating mb-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="text-warning ms-1">5.0</span>
+                                </div>
+
+                                <span class="text-muted">Stokta</span>
+                                <span class="text-success">Ücretsiz Kargo</span>
+                            </div>
+
+                            <div class="price-wrap mb-4">
+                                <strong class="price">12.500 TL</strong>
+                                <del class="price-old">13.000 TL</del>
+                            </div>
+
+                            <div class="d-grid ga-2 d-md-block">
+                                <a href="" class="btn btn-primary">
+                                    <i class="fa fa-shopping-cart me-1"></i> Sepete Ekle
+                                </a>
+                                <a href="" class="btn btn-outline-primary">
+                                    <i class="fa fa-heart me-1"></i> Listeye Ekle
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card product-card mb-3 shadow">
+                <div class="row g-0">
+                    <div class="col-xl-3 col-md-4">
+                        <a href="#" class="img-wrap">
+                            <img src="3.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xl-9 col-md-8 border-start">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-outline-primary btn-icon float-end">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                            <a href="#" class="h6 mb-3 title">
+                                Apple iPhone 11 64GB Sarı Cep Telefonu
+                            </a>
+                            <div class="mb-2">
+                                <div class="rating mb-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="text-warning ms-1">5.0</span>
+                                </div>
+
+                                <span class="text-muted">Stokta</span>
+                                <span class="text-success">Ücretsiz Kargo</span>
+                            </div>
+
+                            <div class="price-wrap mb-4">
+                                <strong class="price">12.500 TL</strong>
+                                <del class="price-old">13.000 TL</del>
+                            </div>
+
+                            <div class="d-grid ga-2 d-md-block">
+                                <a href="" class="btn btn-primary">
+                                    <i class="fa fa-shopping-cart me-1"></i> Sepete Ekle
+                                </a>
+                                <a href="" class="btn btn-outline-primary">
+                                    <i class="fa fa-heart me-1"></i> Listeye Ekle
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link">Geri</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">İleri</a>
+                  </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
