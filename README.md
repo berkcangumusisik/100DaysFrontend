@@ -129,3 +129,10 @@
 - Bootstrap Product Cards
 - Filtreleme Uygulaması
 - Candy Museum Uygulaması
+
+# 21.Gün
+- Javascript Nedir?
+- Javascript Console Kullanımı
+- Javascript Değişkenler
+- var, let, const
+- Javascript Veri Tipleri
