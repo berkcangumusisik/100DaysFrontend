@@ -136,3 +136,11 @@
 - Javascript Değişkenler
 - var, let, const
 - Javascript Veri Tipleri
+
+# 22.Gün
+- Javascript Error Mesajları
+- Javascript Uyarı Mesajları
+- Javascript Veri Alma
+- Javascript Aritmetik Operatörler
+- Javascript Karşılaştırma Operatörleri
+- Javascript Mantıksal Operatörler
