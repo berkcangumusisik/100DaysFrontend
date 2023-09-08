@@ -144,3 +144,7 @@
 - Javascript Aritmetik Operatörler
 - Javascript Karşılaştırma Operatörleri
 - Javascript Mantıksal Operatörler
+
+
+# 23.Gün
+- Javascript Koşullu Durumlar (if - else if - else)
