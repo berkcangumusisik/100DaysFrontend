@@ -148,3 +148,7 @@
 
 # 23.Gün
 - Javascript Koşullu Durumlar (if - else if - else)
+
+# 24.Gün
+- Ternary Operatörü
+- Switch Case
