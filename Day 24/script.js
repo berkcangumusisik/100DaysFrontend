@@ -58,3 +58,15 @@ let sum = bill + tip
 
 console.log("The bill was " + bill + ", the tip was " + tip + ", and the total value " + sum ) 
 
+
+
+let sayi, kare
+sayi = 5
+if(sayi < 0){
+    console.log("Negatif sayı girdiniz")
+}else{
+    kare = sayi * sayi
+    console.log(kare)
+}
+
+

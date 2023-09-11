@@ -152,3 +152,9 @@
 # 24.Gün
 - Ternary Operatörü
 - Switch Case
+
+# 25.Gün
+- Javascript Template Literals
+- Javascript String Metodları
+- Math 
+- Date 
