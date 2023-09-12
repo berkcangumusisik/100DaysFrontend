@@ -158,3 +158,7 @@
 - Javascript String Metodları
 - Math 
 - Date 
+
+# 26.Gün
+- Javascript Diziler
+- Javascript Dizi Metodları
