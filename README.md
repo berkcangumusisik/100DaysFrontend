@@ -162,3 +162,8 @@
 # 26.Gün
 - Javascript Diziler
 - Javascript Dizi Metodları
+
+# 27.Gün
+- Javascript Object
+- Javascript Object Metodları
+- Javascript Döngüler
