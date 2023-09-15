@@ -167,3 +167,9 @@
 - Javascript Object
 - Javascript Object Metodları
 - Javascript Döngüler
+
+# 28.Gün
+- Javascript Fonksiyonlar
+- Javascript Fonksiyon Parametreleri
+- Javascript Fonksiyon Return
+- Javascript Arrow Function
