@@ -173,3 +173,9 @@
 - Javascript Fonksiyon Parametreleri
 - Javascript Fonksiyon Return
 - Javascript Arrow Function
+
+
+# 29.Gün
+- Javascript DOM Manipülasyonu
+- Javascript DOM Element Seçimi
+- Javascript DOM Elementlerini Değiştirme
