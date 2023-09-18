@@ -179,3 +179,7 @@
 - Javascript DOM Manipülasyonu
 - Javascript DOM Element Seçimi
 - Javascript DOM Elementlerini Değiştirme
+
+# 30.Gün
+- Javascript ile Modal Yapımı
+- Javascript ile Zar Atma Oyunu
