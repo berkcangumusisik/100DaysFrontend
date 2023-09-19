@@ -183,3 +183,6 @@
 # 30.Gün
 - Javascript ile Modal Yapımı
 - Javascript ile Zar Atma Oyunu
+
+# 31.Gün
+- Todo List Uygulaması
