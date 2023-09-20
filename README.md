@@ -186,3 +186,7 @@
 
 # 31.Gün
 - Todo List Uygulaması
+
+# 32.Gün
+- Javascript Nasıl Çalışır?
+- Javascript Scope
