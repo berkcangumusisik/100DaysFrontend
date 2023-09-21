@@ -190,3 +190,8 @@
 # 32.Gün
 - Javascript Nasıl Çalışır?
 - Javascript Scope
+
+# 33.Gün
+- Javascript Hoisting
+- Javascript TDZ 
+- This Keywordü 
