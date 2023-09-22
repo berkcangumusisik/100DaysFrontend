@@ -195,3 +195,9 @@
 - Javascript Hoisting
 - Javascript TDZ 
 - This Keywordü 
+
+# 34.Gün
+- Javascript Arrow Function
+- Javascript Regular Function
+- Primitive ve Reference Types
+
