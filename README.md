@@ -201,3 +201,6 @@
 - Javascript Regular Function
 - Primitive ve Reference Types
 
+# 35.Gün
+- Decructuring Array ve Object
+- Rest Operatorü
