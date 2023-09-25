@@ -204,3 +204,11 @@
 # 35.Gün
 - Decructuring Array ve Object
 - Rest Operatorü
+
+
+# 36.Gün
+- Spread Operatorü
+- Rest ve Spread Operatorü ile Fonksiyonlarda Kullanımı
+- Rest ve Spread Operatorü ile Array ve Object Kullanımı
+- && ve || Operatörleri
+- ?? Operatörü
