@@ -212,3 +212,9 @@
 - Rest ve Spread Operatorü ile Array ve Object Kullanımı
 - && ve || Operatörleri
 - ?? Operatörü
+
+
+# 37.Gün
+- Javascript For of Döngüsü
+- ?. Operatörü
+- Döngülerde Object Keys, Object Values ve Object Entries Kullanımı
