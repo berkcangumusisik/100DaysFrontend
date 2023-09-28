@@ -218,3 +218,7 @@
 - Javascript For of Döngüsü
 - ?. Operatörü
 - Döngülerde Object Keys, Object Values ve Object Entries Kullanımı
+
+# 38.Gün
+- Set
+- Map
