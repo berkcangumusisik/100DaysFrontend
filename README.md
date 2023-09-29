@@ -222,3 +222,6 @@
 # 38.Gün
 - Set
 - Map
+
+# 39.Gün
+- String Metodları
