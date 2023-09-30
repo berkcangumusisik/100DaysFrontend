@@ -225,3 +225,8 @@
 
 # 39.Gün
 - String Metodları
+
+
+# 40.Gün
+- Default Parametreler
+- Callback Fonksiyonlar
