@@ -230,3 +230,9 @@
 # 40.Gün
 - Default Parametreler
 - Callback Fonksiyonlar
+
+# 41.Gün
+- Return ile Fonksiyonlarda Çalışma
+- Call
+- Apply
+- Bind
