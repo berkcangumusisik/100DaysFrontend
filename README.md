@@ -236,3 +236,7 @@
 - Call
 - Apply
 - Bind
+
+# 42.Gün
+- IIFE
+- Closures
