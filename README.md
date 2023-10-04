@@ -240,3 +240,8 @@
 # 42.Gün
 - IIFE
 - Closures
+
+# 43.Gün
+- Array Metodları
+- Array Metodları ile Uygulama
+- ForEach
