@@ -245,3 +245,8 @@
 - Array Metodları
 - Array Metodları ile Uygulama
 - ForEach
+
+# 44.Gün
+- Foreach Map ve Set kullanımı
+- Map, filter, reduce nedir?
+- Map Kullanımı
