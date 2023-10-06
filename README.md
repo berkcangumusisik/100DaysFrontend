@@ -250,3 +250,7 @@
 - Foreach Map ve Set kullanımı
 - Map, filter, reduce nedir?
 - Map Kullanımı
+
+# 45.Gün
+- Filter Kullanımı
+- Reduce Kullanımı
