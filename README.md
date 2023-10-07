@@ -254,3 +254,7 @@
 # 45.Gün
 - Filter Kullanımı
 - Reduce Kullanımı
+
+# 46.Gün
+- find Kullanımı
+- Bankist Uygulaması Giriş İşlemi
