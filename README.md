@@ -258,3 +258,10 @@
 # 46.Gün
 - find Kullanımı
 - Bankist Uygulaması Giriş İşlemi
+
+# 47.Gün
+- Bankist Uygulaması Para Transferi
+- Bankist Uygulaması Kredi Alma
+- some ve every Kullanımı
+- flat ve flatMap Kullanımı
+- sort Kullanımı
