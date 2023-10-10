@@ -265,3 +265,8 @@
 - some ve every Kullanımı
 - flat ve flatMap Kullanımı
 - sort Kullanımı
+
+# 48.Gün
+- Array.from Kullanımı
+- Fill kullanımı
+- Array Tekrarı
