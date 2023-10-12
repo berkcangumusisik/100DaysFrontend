@@ -270,3 +270,8 @@
 - Array.from Kullanımı
 - Fill kullanımı
 - Array Tekrarı
+
+# 49.Gün
+- Math ve Number Metodları
+- Remaider Operatörü
+- BigInt
