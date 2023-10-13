@@ -275,3 +275,9 @@
 - Math ve Number Metodları
 - Remaider Operatörü
 - BigInt
+
+
+# 50.Gün
+- Date Metodları
+- Tarih ve Saat İşlemleri
+- Bankist Uygulaması Tarih İşlemleri
