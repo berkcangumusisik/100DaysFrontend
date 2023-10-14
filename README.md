@@ -287,4 +287,9 @@
 - Element Oluşturma
 - Element Silme
 - Element Değiştirme
-- 
+
+# 52.Gün
+- Event Propagation (Event Bubbling ve Event Capturing)
+- Event Propagation Önleme
+- Event Delegation
+- Event Delegation ile Uygulama
