@@ -281,3 +281,10 @@
 - Date Metodları
 - Tarih ve Saat İşlemleri
 - Bankist Uygulaması Tarih İşlemleri
+
+# 51.Gün
+- İleri Düzey DOM Manipülasyonu
+- Element Oluşturma
+- Element Silme
+- Element Değiştirme
+- 
