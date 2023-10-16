@@ -293,3 +293,8 @@
 - Event Propagation Önleme
 - Event Delegation
 - Event Delegation ile Uygulama
+
+
+# 53.Gün
+- Bankist Uygulaması Ana Sayfa İşlemleri
+- DOM işlemleri ile Uygulama
