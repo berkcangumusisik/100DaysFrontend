@@ -298,3 +298,7 @@
 # 53.Gün
 - Bankist Uygulaması Ana Sayfa İşlemleri
 - DOM işlemleri ile Uygulama
+
+# 54.Gün
+- OOP Nedir?
+- OOP Giriş
