@@ -302,3 +302,9 @@
 # 54.Gün
 - OOP Nedir?
 - OOP Giriş
+
+# 55.Gün
+- OOP Özellikleri
+- Constructor Oluşturma
+- new Keywordü
+- Prototypes

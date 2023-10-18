@@ -42,7 +42,6 @@ console.log(berkcan.hasOwnProperty("firstName"))
 console.log(matilda.hasOwnProperty("species"))
 
 
+console.log(berkcan.__proto__)
+console.log(berkcan.__proto__.__proto__)
 
-/**
-
-*/
