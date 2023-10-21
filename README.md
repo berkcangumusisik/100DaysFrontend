@@ -308,3 +308,13 @@
 - Constructor Oluşturma
 - new Keywordü
 - Prototypes
+
+# 56.Gün
+- Prototypes ile Uygulama 
+- Prototypes ile Kalıtım
+
+# 57.Gün
+- ES6 Classları
+- Get ve Set Metodları
+- Static Metodlar
+- Object Create

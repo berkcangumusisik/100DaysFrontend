@@ -58,6 +58,7 @@ const Car = function (make, speed){
     this.speed = speed
 }
 
+
 Car.prototype.accelerate = function (){
     this.speed += 10
     console.log(`${this.make} : ${this.speed} km\sa`)
@@ -74,3 +75,5 @@ const mercedes = new Car("Mercedes", 95)
 bmv.accelerate()
 mercedes.accelerate()
 
+//prototype: Bir constructor functionunun prototype özelliği, o constructor functionunun nesnelerinin özelliklerini ve metodlarını barındıran bir objedir. Bu sayede o constructor functiondan üretilen nesnelerin özelliklerini ve metodlarını kullanabiliriz.
+// __proto__: Bir nesnenin prototype özelliğinin değerini referans eder. Yani bir nesnenin prototype özelliğinin değeri olan objeye erişmek için __proto__ özelliğini kullanabiliriz.
