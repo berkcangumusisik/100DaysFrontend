@@ -318,3 +318,8 @@
 - Get ve Set Metodları
 - Static Metodlar
 - Object Create
+
+# 58.Gün
+- Constructor
+- Inheritance
+- Kodlama Egzersizi
