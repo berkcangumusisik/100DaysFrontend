@@ -323,3 +323,7 @@
 - Constructor
 - Inheritance
 - Kodlama Egzersizi
+
+# 59.Gün
+- ES6 Class
+- Object.create
