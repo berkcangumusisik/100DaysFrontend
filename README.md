@@ -327,3 +327,8 @@
 # 59.Gün
 - ES6 Class
 - Object.create
+
+# 60.Gün
+- Erişim Belirleyiciler
+- Zincirleme Yöntemleri
+- Kodlama Egzersizi 4
