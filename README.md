@@ -337,3 +337,8 @@
 - Mapty Projesi #1 
 - Geolocation API
 - Harita İşaretleyici
+
+# 62.Gün
+- Harita İşaretleyici Düzenlemeleri
+- Form ile Veri Alma
+- Proje Yapısı
