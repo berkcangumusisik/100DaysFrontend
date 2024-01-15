@@ -342,3 +342,7 @@
 - Harita İşaretleyici Düzenlemeleri
 - Form ile Veri Alma
 - Proje Yapısı
+
+# 63. Gün
+- Proje Yapısı Güncellendi.
+- Antreman Verileri için ayrı bir class yapısı oluşturuldu.
