@@ -333,16 +333,11 @@
 - Zincirleme Yöntemleri
 - Kodlama Egzersizi 4
 
-# 61.Gün
-- Mapty Projesi #1 
-- Geolocation API
-- Harita İşaretleyici
+# 61.Gün - 64. Gün 
+- Mapty Projesi Tamamlandı
 
-# 62.Gün
-- Harita İşaretleyici Düzenlemeleri
-- Form ile Veri Alma
-- Proje Yapısı
-
-# 63. Gün
-- Proje Yapısı Güncellendi.
-- Antreman Verileri için ayrı bir class yapısı oluşturuldu.
+# 65. Gün
+- Senkron ile Asenkron Programlama Arasındaki Farklar
+- API nedir?
+- AJAX Nedir?
+- Dışarıdan veri kullanarak proje hazırlama
