@@ -341,3 +341,8 @@
 - API nedir?
 - AJAX Nedir?
 - Dışarıdan veri kullanarak proje hazırlama
+
+# 66.Gün
+- Promise
+- Fetch
+- Fetch ile hata yakalama
