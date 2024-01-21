@@ -401,3 +401,8 @@
 # 67. Gün
 
 - Asenkron Programlama Tamamlandı.
+
+
+# 68. Gün
+- Modern Javascript
+- npm
