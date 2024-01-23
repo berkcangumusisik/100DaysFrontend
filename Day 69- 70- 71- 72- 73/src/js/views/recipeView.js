@@ -1,65 +1,12 @@
+import View from "./Views.js";
 import icons from "url:../../img/icons.svg";
 import { Fraction } from "fractional";
 
-class RecipeView {
-  #parentElement = document.querySelector(".recipe");
-  #data;
-  #errorMessage = "We could not find that recipe. Please try another one";
-  #message = "";
-  render(data) {
-    this.#data = data;
-    const markup = this.#generateMarkup;
-    this.#clear();
-    this.#parentElement.recipeContainer.insertAdjacentHTML(
-      "afterbegin",
-      markup
-    );
-  }
+class RecipeView extends View {
+  _parentElement = document.querySelector(".recipe");
 
-  #clear() {
-    this.#parentElement.innerHTML = "";
-  }
-
-  renderSpinner = function () {
-    const markup = `
-  <div class="spinner">
-  <svg>
-    <use href="${icons}#icon-loader"></use>
-  </svg>
-  </div>
-  `;
-    this.#parentElement.innerHTML = "";
-    this.#parentElement.insertAdjacentHTML("afterbegin", markup);
-  };
-
-  renderError(message = this.#errorMessage) {
-    const markup = `
-    <div class="error">
-    <div>
-    <svg>
-    <use href="${icons}#icon-alert-triangle"></use>
-    </svg>
-    </div>
-    <p>${this.#message}</p>
-    </div>
-    `;
-    this.#clear();
-    this.#parentElement.insertAdjacentHTML("afterbegin", markup);
-  }
-
-  renderMessage(mesagge = this.#message) {
-    const markup = `
-    <div class="error">
-      <div>
-        <svg>
-        <use href="${icons}#icon-alert-triangle"></use>
-        </svg>
-      </div>
-      <p>${this.#message}</p>
-    </div>
-    
-    `;
-  }
+  _errorMessage = "We could not find that recipe. Please try another one";
+  _message = "";
 
   addHandlerRender(handler) {
     ["hashchange", "load"].forEach((ev) =>
@@ -67,7 +14,7 @@ class RecipeView {
     );
   }
 
-  #generateMarkup() {
+  _generateMarkup() {
     return `
       <figure class="recipe__fig">
         <img src="${this._data.image}" alt="${
