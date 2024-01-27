@@ -407,5 +407,5 @@
 - Modern Javascript
 - npm
 
-# 69. - 71. Gün
+# 69. - 73. Gün
 - Forkify projesine başlandı.
