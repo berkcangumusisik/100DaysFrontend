@@ -409,3 +409,6 @@
 
 # 69. - 73. Gün
 - Forkify projesine başlandı.
+
+# 74. Gün
+- Sinema Bilet Rezervasyon projesi tamamlandı.
