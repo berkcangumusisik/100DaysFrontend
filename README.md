@@ -412,3 +412,7 @@
 
 # 74. Gün
 - Sinema Bilet Rezervasyon projesi tamamlandı.
+
+# 75. Gün
+- Hesap Makinesi
+- Adam Asmaca
