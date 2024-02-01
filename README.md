@@ -416,3 +416,7 @@
 # 75. Gün
 - Hesap Makinesi
 - Adam Asmaca
+
+# 76.Gün
+- Döviz Çeviri Uygulaması
+- Çeviri Uygulaması
