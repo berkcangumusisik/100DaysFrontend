@@ -420,3 +420,8 @@
 # 76.Gün
 - Döviz Çeviri Uygulaması
 - Çeviri Uygulaması
+
+# 77.Gün
+- Jquery Nedir?
+- Jquery Eklentileri Nelerdir?
+- Jquery Temel Kullanımı
